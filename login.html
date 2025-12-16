@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="login img/icons8-doughnut-chart-48.png">
+<title>Login from</title>
+<link rel="stylesheet" href="style.css">
+ <!-- daisy ui  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+
+ 
+ 
+
+<!-- ================= LOGIN SECTION ================= -->
+<section class="min-h-screen relative flex items-center justify-center md:justify-end px-4 md:px-12">
+
+  <!-- Background Image -->
+  <img
+    src="login img/image 1.png"
+    alt="Background"
+    class="absolute inset-0 w-full h-full object-cover"
+  >
+
+  <!-- Gradient Overlay (Black + Purple) -->
+  <div class="absolute inset-0 bg-gradient-to-r from-[#0F0F0F]/80 to-[#8B5CF6]/70"></div>
+
+  <!-- Top Left Logo -->
+  <div class="absolute top-6 left-6 z-10">
+    <img src="login img/Addweb Logo white 1.png" alt="Logo" class="h-10">
+  </div>
+
+  <!-- Login Card -->
+  <div class="relative z-10 w-full max-w-sm
+              bg-gradient-to-br from-[#8B5CF6]/20 to-white
+              backdrop-blur-md p-8 rounded-xl shadow-lg">
+
+    <h2 class="text-2xl font-bold mb-1 text-black">Login</h2>
+    <p class="mb-4 text-gray-700">Welcome onboard with us!</p>
+
+    <form class="space-y-4">
+      <input
+        type="email"
+        placeholder="Email"
+        class="w-full border px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+      >
+
+      <input
+        type="password"
+        placeholder="Password"
+        class="w-full border px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+      >
+
+      <button
+        class="w-full bg-gradient-to-r from-[#0F0F0F] to-[#8B5CF6]
+               text-white font-bold py-2 rounded-lg hover:opacity-90 transition">
+        Login
+      </button>
+    </form>
+  </div>
+
+</section>
+
+<!-- ================= FOOTER SECTION ================= -->
+<footer class="relative bg-[#8B5CF6] text-white">
+
+  <!-- Wave -->
+  <div class="absolute inset-x-0 top-0">
+    <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mt-1">
+      <path
+        d="M0,12 C48.89,5.73 86.22,2.59 112,2.59
+           C137.77,2.59 175.11,5.73 224,12 L224,0 L0,0 Z">
+      </path>
+    </svg>
+  </div>
+
+  <div class="relative px-4 py-20 mx-auto max-w-3xl text-center">
+    <h2 class="mb-4 text-3xl font-bold">
+      Subscribe to our newsletter
+    </h2>
+
+    <p class="mb-6 text-indigo-100">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+    </p>
+
+    <form class="flex flex-col md:flex-row gap-3 justify-center">
+      <input
+        type="email"
+        placeholder="Email"
+        class="w-full md:w-80 h-12 px-4 rounded text-black focus:outline-none"
+      >
+      <button
+        class="h-12 px-6 bg-black text-white font-semibold rounded hover:bg-gray-900 transition">
+        Subscribe
+      </button>
+    </form>
+  </div>
+
+</footer>
+<!-- <a href="index.html">⬅ Back to Home</a> -->
+</html>
